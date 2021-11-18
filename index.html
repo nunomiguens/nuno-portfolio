@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon-32x32.png" />
+  <title>
+    Nuno Portfolio
+  </title>
+  <meta name="description" content="I'm a frontend developer that builds and designs digital experiences.">
+  <meta name="keywords" content="nuno miguens, frontend developer, fullstack developer, web developer, web designer, graphic designer, html, css, javascript, typescript, react, materialui, mongodb, nextjs." />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ////// Header ////// -->
+  
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav"  role="navigation"> 
+
+        <a class='nav name' href="#footer"><img src="./images/profile-pic.png" alt="Me" />Nuno Miguens</a> 
+        
+        <div class="toggle"></div>          
+        <ul class="nav__items">         
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          <li><a onclick="darkMode()"><span class="iconify dark-icon" data-icon="fluent:dark-theme-24-filled"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="social-left">
+      <ul class="social-list">
+        <li>
+          <a href="https://github.com/nunomiguens" target="_blank"><span class="iconify dark-icon" data-icon="akar-icons:github-fill" style="color: white;"></span></a>
+        </li>
+        <li>
+          <a href="#work" target="_blank"><span class="iconify dark-icon" data-icon="akar-icons:linkedin-fill" style="color: white;"></span></a>
+        </li>
+        <li>
+          <a href="#work" target="_blank"><span class="iconify dark-icon" data-icon="akar-icons:instagram-fill" style="color: white;"></span></a>
+        </li>
+        <li>
+          <a href="mailto: nunomiguens@gmail.com" target="_blank" ><span class="iconify dark-icon" data-icon="feather:at-sign" style="color: white;"></span></a>
+        </li>
+        <div class="line"></div>
+      </ul>
+    </div>
+    
+
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h3>Hello, my name is Nuno</h3>
+        <h1 class="heading-primary">
+          <span>I build for the web.</span>
+        </h1>
+        <p>I'm a frontend developer that builds and designs digital experiences, with passion on all visual communication spectrum.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>   
+    </div>   
+
+  </header> 
+
+  <main role="main">
+
+    <!-- ////// About ////// -->
+    
+    <hr><section class="about" id="about">
+      
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I’m Nuno Miguens, a front-end web developer and designer based in
+          Castelo Branco, Portugal. <br />
+          <br />
+          My background training is in communication design and my interest in
+          web development started back in 2018 when I decided that it would be a logic step
+          in my area to learn the basics in HTML, CSS and Javascript.
+          <br />
+          <br />
+          Fast-forward to today, I’ve created responsive websites, e-commerce
+          platforms, small and medium web apps. My main focus these days is
+          building accessible, inclusive products and digital experiences,
+          hoping to get hired by a company where i can develop my skills and
+          gain experience in larger and scalable projects.<br />
+          <br />
+          My latest learning has been focused in going fullstack, here are a few
+          technologies I’ve been working with recently: <br /> 
+          <br /> 
+          <span class="iconify" data-icon="logos:javascript"></span> Javascript <span class="iconify" data-icon="logos:typescript-icon"></span> Typescript <span class="iconify" data-icon="logos:react"></span> React <span class="iconify" data-icon="logos:redux" style="color: white;"></span> Redux <span class="iconify dark-icon" data-icon="akar-icons:nextjs-fill" style="color: white;"></span> Next <span class="iconify" data-icon="simple-icons:mongodb" style="color: green;"></span> MongoDB
+            </p>
+            <a href="./images/resume.pdf" class="btn" target="_blank">My Resume</a>
+          </div>
+          <div class="about__photo-container">        
+            <img class="about__photo" src="./images/about-picture.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ////// Work ////// -->
+
+  <hr><section class="work" id="work">
+    <div class="row">
+      <h2>My Work</h2>
+      <div class="work__boxes">
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>BuyAll Shop</h3>
+            <p>
+              Full Stack e-Commerce App that handles everything from shopping and payments, to secure checkout and shipping.
+            </p>
+            <ul class="work__list">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Typescript</li>
+              <li>MongoDB</li>
+            </ul>
+
+            <div class="work__links">
+              <a href="https://nunomiguens-buy-all-shop.tk/" target="_blank" class="link__text">
+                Visit Site <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/nunomiguens/next-buy-all-shop.git" title="View Source Code" target="_blank">
+                <img src="./images/github.svg" class="work__code" alt="GitHub">
+              </a>
+            </div>
+          </div>
+          <div class="work__image-box">
+            <a href='https://nunomiguens-buy-all-shop.tk/' target="_blank"><img src="./images/buyall-mock.jpg" class="work__image " alt="Project 1" /></a>                                               
+          </div>
+        </div>
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>Fashion Clothing</h3>
+            <p>
+              A fully functional e-commerce website for anyone to use for free.
+            </p>
+            <ul class="work__list">
+              <li>React</li>
+              <li>Javascript</li>
+              <li>Redux</li>
+              <li>SASS</li>
+            </ul>
+
+            <div class="work__links">
+              <a href="http://crwn-clothing-pi.vercel.app" class="link__text" target="_blank">
+                Visit Site <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/nunomiguens/crwn-clothing.git" target="_blank">
+                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+              </a>
+            </div>
+          </div>
+          <div class="work__image-box">
+            <a href='http://crwn-clothing-pi.vercel.app' target="_blank"><img src="./images/crw-mock.jpg" class="work__image" alt="Project 1" /></a>
+          </div>
+        </div>
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>Country Finder</h3>
+            <p>
+              App where user can have access to informations of any country in the world.
+            </p>
+            <ul class="work__list">
+              <li>React</li>
+              <li>Javascript</li>
+              <li>Redux</li>
+              <li>CSS</li>
+            </ul>
+
+            <div class="work__links">
+              <a href="http://country-finder-alpha.vercel.app" class="link__text" target="_blank">
+                Visit Site <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/nunomiguens/country-finder.git" target='_blank'>
+                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+              </a>
+            </div>
+          </div>
+          <div class="work__image-box">
+            <a href='http://country-finder-alpha.vercel.app' target="_blank"><img src="./images/country-mock.jpg" class="work__image" alt="Project 3" /></a>
+          </div>
+        </div>
+
+      <!-- ////// Other projects ////// -->
+
+      <h3 class='work-other-title'>Other Noteworthy Projects</h3>
+        <div class="work__box other-projects">
+          
+          <div class="work-other">
+            
+            <div class="item">
+              <img
+                src="images/work-images1/portfolio.jpg"
+                alt=""/>
+              <div class="action">
+                <p>
+                  Portfolio Website - A minimal and accessible website used for my portfolio.
+                </p>
+                <a href="http://nunomiguens-buy-all-shop.tk/" target="_blank"
+                  >Demo</a>
+                <a
+                  href="https://github.com/nunomiguens/next-buy-all-shop.git"
+                  target="_blank"
+                  >Source</a>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="images/work-images1/lyrics-search-mock Cropped.jpg"
+                alt=""
+              />
+              <div class="action">
+                <p>
+                  Lyrics Search - App to find songs, artists and lyrics using the genius API.
+                </p>
+                <a href="https://lyrics-search-goldstine.netlify.app" target="_blank"
+                  >Demo</a>
+                <a
+                  href="https://github.com/nunomiguens/lyrics-search.git"
+                  target="_blank"
+                  >Source</a>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="images/work-images1/recipe-app-mock Cropped.jpg"
+                alt=""
+              />
+              <div class="action">
+                <p>
+                  Recipe app - Recipe application with custom recipe uploads.
+                </p>
+                <a href="https://forkify-app-project.netlify.app" target="_blank"
+                  >Demo</a>
+                <a
+                  href="https://github.com/nunomiguens/recipe-app.git"
+                  target="_blank"
+                  >Source</a>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="images/work-images1/creative-web.jpg"
+                alt=""
+              />
+              <div class="action">
+                <p>
+                  Creative Agency - Simple responsive landing page with hamburguer overlay menu
+                </p>
+                <a href="https://creative-agency-nm.netlify.app/" target="_blank"
+                  >Demo</a>
+                <a
+                  href="https://github.com/nunomiguens/creative-agency.git"
+                  target="_blank"
+                  >Source</a>
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="images/work-images1/relax-app.jpg"
+                alt=""
+              />
+              <div class="action">
+                <p>
+                  Relaxer App - A relaxing breathing app build with HTML, CSS and Javascript.
+                </p>
+                <a href="https://relax-app-nm.netlify.app/" target="_blank"
+                  >Demo</a>
+                <a
+                  href="https://github.com/nunomiguens/relax-app.git"
+                  target="_blank"
+                  >Source</a>
+              </div>
+            </div>            
+
+            <div class="item">
+              <img
+                src="images/work-images1/edgeledger-mock Cropped.jpg"
+                alt=""
+              />
+              <div class="action">
+                <p>
+                  Edgeledger - Modern responsive website build with HTML, CSS and Javascript. 
+                </p>
+                <a href="https://edgeledgersky-website.netlify.app" target="_blank"
+                  >Demo</a>
+                <a
+                  href="https://github.com/nunomiguens/edgeledger_website.git"
+                  target="_blank"
+                  >Source</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ////// Contact ////// -->
+
+  <hr><section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          I’m currently looking for new opportunities to develop my skills. My inbox is always open, whether you looking for a fast-performing and user-friendly website to represent your product or business, or consultation about developing an app. If you have a question, feel free to say Hi!
+        </p>
+        <div class="contact-container">
+          <div class="contact-form">
+            <form name="contact" method="POST" data-netlify="true" id='form1'>
+              <div class="row">
+                <div class="input50">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div class="input50">
+                  <input type="text" placeholder="Last Name" name="last-name" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="input50">
+                  <input type="email" placeholder="Email" name="email" required />
+                </div>
+                <div class="input50">
+                  <input type="text" placeholder="Subject" name="subject" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="input100">
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+              </div>                    
+            </form>            
+          </div>       
+        <a class="btn submit" type="submit" form="form1"  onclick="myFunction()">Send Message</a>         
+      </div>
+    </div>
+  </section>
+
+  <!-- ////// Footer ////// -->
+
+  <footer role="contentinfo" class="footer" id='footer'>
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/nunomiguens" title="Link to Github Profile" target='_blank'>
+            <img src="https://api.iconify.design/akar-icons/github-fill.svg?color=white" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="#" title="Link to Linkedin Profile" target='_blank'>
+            <img src="https://api.iconify.design/akar-icons/linkedin-fill.svg?color=white" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="#" title="Link to Instagram Profile" target='_blank'>
+            <img src="https://api.iconify.design/akar-icons/instagram-fill.svg?color=white" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="mailto: nunomiguens@gmail.com" target='_blank'>
+            <img src="https://api.iconify.design/feather/at-sign.svg?color=white" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+      <p >
+        &copy; 2021 - Designed & Built by <a href="https://github.com/nunomiguens" class="link link__footer">Nuno Miguens</a>.
+      </p>
+      
+    </div>
+  </footer>
+
+  <p class="copyright">
+    &copy; 2021 - Designed & Built by <a href="https://github.com/nunomiguens" class="link link__footer">Nuno Miguens</a>.
+  </p>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+
+  <!-- SVG filter-->
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-filters">     
+    <filter id="cherry-icecream" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="1 0 0 0 0
+    1 0 0 0 0
+    1 0 0 0 0
+    0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>
+      <feComponentTransfer in="colormatrix" result="componentTransfer">
+            <feFuncR type="table" tableValues="0.84 1"/>
+        <feFuncG type="table" tableValues="0.05 0.94"/>
+        <feFuncB type="table" tableValues="0.37 0.61"/>
+        <feFuncA type="table" tableValues="0 1"/>
+        </feComponentTransfer>
+      <feBlend mode="multiply" in="componentTransfer" in2="SourceGraphic" result="blend"/>
+    </filter>
+  </svg>
+
+  <!-- Scripts-->
+  
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
