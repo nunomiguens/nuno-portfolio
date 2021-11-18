@@ -602,6 +602,10 @@ body:not(.user-is-tabbing) a:focus {
 
 /* ----- About ----- */
 
+.language-icons {
+  
+}
+
 .about__content {
   display: flex;
   align-items: flex-start;
