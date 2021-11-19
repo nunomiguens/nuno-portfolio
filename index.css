@@ -781,6 +781,16 @@ body:not(.user-is-tabbing) a:focus {
   margin-left: 15px;
 }
 
+@media (max-width: 768px) {
+  .work-other .item .action {
+    opacity: 1;
+  }
+
+  .work-other .item:hover .action {
+    opacity: 0.6;
+  }
+}
+
 /* ----- Contact ----- */
 
 .contact__info {
