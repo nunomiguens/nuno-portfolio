@@ -783,11 +783,11 @@ body:not(.user-is-tabbing) a:focus {
 
 @media (max-width: 768px) {
   .work-other .item .action {
-    opacity: 1;
+    opacity: 0.6;
   }
 
   .work-other .item:hover .action {
-    opacity: 0.6;
+    opacity: 1;
   }
 }
 
