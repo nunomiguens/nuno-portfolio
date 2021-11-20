@@ -776,7 +776,6 @@ body:not(.user-is-tabbing) a:focus {
 .work-other .item .action p {
   color: #fff;
   text-align: center;
-
   padding: 5px 15px;
   margin-left: 15px;
 }
