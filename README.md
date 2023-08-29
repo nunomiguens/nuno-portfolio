@@ -2,7 +2,7 @@
 
 > A beautiful minimal and accessible website used for my portfolio.
 
-- Deployed Version : https://nunoportfolio.tk
+- Deployed Version : https://nunomiguens.site
 
 ## Technologies
 
